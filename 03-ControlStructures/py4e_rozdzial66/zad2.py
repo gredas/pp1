@@ -1,0 +1,2 @@
+nazwa = "banana"
+print(nazwa[:])
