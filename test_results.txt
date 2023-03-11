@@ -1,0 +1,31 @@
+test_p1 (__main__.Test) ... ok
+test_p2 (__main__.Test) ... ok
+test_p3 (__main__.Test) ... ERROR
+test_p4 (__main__.Test) ... ok
+test_p5 (__main__.Test) ... ok
+test_p6 (__main__.Test) ... ok
+test_p7 (__main__.Test) ... ok
+test_p8 (__main__.Test) ... ERROR
+
+======================================================================
+ERROR: test_p3 (__main__.Test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\bartl\OneDrive\Pulpit\asdasda\test.py", line 25, in test_p3
+    import p3
+ModuleNotFoundError: No module named 'p3'
+
+======================================================================
+ERROR: test_p8 (__main__.Test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\bartl\OneDrive\Pulpit\asdasda\test.py", line 54, in test_p8
+    self.assertEqual(self.s1.m2("WZ"),90)
+  File "c:\Users\bartl\OneDrive\Pulpit\asdasda\p8.py", line 15, in m2
+    self.sum += self.dict[string[0]]
+KeyError: 'W'
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.009s
+
+FAILED (errors=2)

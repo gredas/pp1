@@ -1,0 +1,41 @@
+{
+    "ExchangeRatesSeries": {
+        "Table": "A",
+        "Currency": "euro",
+        "Code": "EUR",
+        "Rates": {
+            "Rate": [
+                {
+                    "No": "228/A/NBP/2022",
+                    "EffectiveDate": "2022-11-25",
+                    "Mid": 4.6884
+                },
+                {
+                    "No": "229/A/NBP/2022",
+                    "EffectiveDate": "2022-11-28",
+                    "Mid": 4.6835
+                },
+                {
+                    "No": "230/A/NBP/2022",
+                    "EffectiveDate": "2022-11-29",
+                    "Mid": 4.6813
+                },
+                {
+                    "No": "231/A/NBP/2022",
+                    "EffectiveDate": "2022-11-30",
+                    "Mid": 4.6684
+                },
+                {
+                    "No": "232/A/NBP/2022",
+                    "EffectiveDate": "2022-12-01",
+                    "Mid": 4.6892
+                },
+                {
+                    "No": "233/A/NBP/2022",
+                    "EffectiveDate": "2022-12-02",
+                    "Mid": 4.685
+                }
+            ]
+        }
+    }
+}

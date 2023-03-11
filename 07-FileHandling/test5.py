@@ -1,0 +1,5 @@
+f = open('demofile2.txt','w')
+f.write('now the file has more content')
+f.close()
+f = open('demofile2.txt','r')
+print(f.read())

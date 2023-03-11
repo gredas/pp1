@@ -1,12 +1,6 @@
-n=5
+n=4
 t=0
 arr=[]
-for x in range(0,n):
-    arr.append([])
-    for y in range(n):
-        if y==x:
-            arr[x].append(1)
-        else:
-            arr[x].append(0)
+arr.append([])
+arr
 
-print(arr)
